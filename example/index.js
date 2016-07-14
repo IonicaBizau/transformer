@@ -54,11 +54,17 @@ t.add((data, cb) => {
     }, 900);
 }, Transformer.UNORDERED);
 
-debugger
 // Sync function
 t.add(data => {
     data.planet = data.world;
 });
 
 // Finally show the data
-t.on("end", data => console.log(data));
+t.on("end", (err, data) => console.log(data));
+// => { world: 'Mars'
+//    , parallel: 42
+//    , oldWorld: 'Earth'
+//    , baz: 7
+//    , bar: 42
+//    , foo: 42
+//    , planet: 'Mars' }
