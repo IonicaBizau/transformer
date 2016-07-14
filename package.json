@@ -38,5 +38,12 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/transformer/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/transformer#readme"
+  "homepage": "https://github.com/IonicaBizau/transformer#readme",
+  "dependencies": {
+    "asyncer": "ionicabizau/asyncer",
+    "deffy": "^2.2.2",
+    "fn-result": "^1.0.4",
+    "noop6": "^1.0.2",
+    "ul": "^5.2.2"
+  }
 }
