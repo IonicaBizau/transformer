@@ -45,5 +45,8 @@
     "fn-result": "^1.0.4",
     "noop6": "^1.0.2",
     "ul": "^5.2.2"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/2QzGSBl.png"
   }
 }
