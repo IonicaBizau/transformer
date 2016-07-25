@@ -1,6 +1,6 @@
 {
   "name": "transformer",
-  "description": "Transform the data using synchronous and asynchronous functions.",
+  "description": "Transform data using synchronous and asynchronous functions.",
   "keywords": [
     "transformer",
     "transform",
