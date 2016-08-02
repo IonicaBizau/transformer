@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/transformer#readme",
   "dependencies": {
-    "asyncer": "ionicabizau/asyncer",
+    "asyncer.js": "^1.0.0",
     "deffy": "^2.2.2",
     "fn-result": "^1.0.4",
     "noop6": "^1.0.2",
