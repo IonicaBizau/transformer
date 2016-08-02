@@ -123,10 +123,11 @@ Ordered (wait):         | <1: [...]> <2: [.]> <3:[.....]>                <5: [..
    - `Transformer.UNORDERED`: Grouped, but unordered.
    - `Transformer.ORDERED`: Grouped, but ordered.
 
-### `start(fn)`
+### `start(data, fn)`
 Starts the function execution.
 
 #### Params
+- **Object** `data`: The data object.
 - **Function** `fn`: The callback function.
 
 
