@@ -89,7 +89,6 @@ tester.describe("transformer", test => {
 
         // Another async function and ordered
         t1.add((data, cb) => {
-            debugger
             setTimeout(() => {
                 data.baz = 7;
                 cb();
