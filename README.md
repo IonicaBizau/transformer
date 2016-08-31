@@ -117,7 +117,7 @@ Unordered (don't wait): |                                <4a: [........]>
 Ordered (wait):         | <1: [...]> <2: [.]> <3:[.....]>                <5: [....]>
 
 #### Params
-- **Function** `fn`: The function to add.
+- **Function|Transformer** `fn`: The function to add. Note you can add an existing transformer instance as well.
 - **TransformerType** `type`: One of the following:
    - `Transformer.PARALLEL`: Used to append on the parallel timeline.
    - `Transformer.UNORDERED`: Grouped, but unordered.
@@ -140,6 +140,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 
  - [`launchjs`](https://npmjs.com/package/launchjs)—Launch Application Framework
+ - [`lien`](https://github.com/LienJS/Lien)—Another lightweight NodeJS framework. Lien is the link between request and response objects.
 
 ## :scroll: License
 

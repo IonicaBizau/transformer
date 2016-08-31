@@ -27,7 +27,7 @@ Unordered (don't wait): |                                <4a: [........]>
 Ordered (wait):         | <1: [...]> <2: [.]> <3:[.....]>                <5: [....]>
 
 #### Params
-- **Function** `fn`: The function to add.
+- **Function|Transformer** `fn`: The function to add. Note you can add an existing transformer instance as well.
 - **TransformerType** `type`: One of the following:
    - `Transformer.PARALLEL`: Used to append on the parallel timeline.
    - `Transformer.UNORDERED`: Grouped, but unordered.
