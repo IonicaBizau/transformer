@@ -33,6 +33,9 @@ Ordered (wait):         | <1: [...]> <2: [.]> <3:[.....]>                <5: [..
    - `Transformer.UNORDERED`: Grouped, but unordered.
    - `Transformer.ORDERED`: Grouped, but ordered.
 
+#### Return
+- **Transformer** The current Transformer instance.
+
 ### `start(data, fn)`
 Starts the function execution.
 
