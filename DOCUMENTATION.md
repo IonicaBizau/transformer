@@ -7,6 +7,7 @@ Transformer
 Transforms the data using synchronous and asynchronous functions.
 
 #### Params
+
 - **Object** `data`: The data object.
 - **Object** `opts`: The options object:
  - `autostart` (Boolean): If `true`, the functions will be executed,
@@ -27,6 +28,7 @@ Unordered (don't wait): |                                <4a: [........]>
 Ordered (wait):         | <1: [...]> <2: [.]> <3:[.....]>                <5: [....]>
 
 #### Params
+
 - **Function|Transformer** `fn`: The function to add. Note you can add an existing transformer instance as well.
 - **TransformerType** `type`: One of the following:
    - `Transformer.PARALLEL`: Used to append on the parallel timeline.
@@ -40,6 +42,7 @@ Ordered (wait):         | <1: [...]> <2: [.]> <3:[.....]>                <5: [..
 Starts the function execution.
 
 #### Params
+
 - **Object** `data`: The data object.
 - **Function** `fn`: The callback function.
 
